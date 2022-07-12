@@ -13,12 +13,14 @@ def main():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
     for ir in range(3):
-        number = int(uniform(1, 100))
+        number = int(uniform(1, 25))
         answer = questions.question_user(number)
 
-        correct_answer = 'no'
-        if number % 2 == 0:
-            correct_answer = 'yes'
+        k = 0
+        for i in range(2, number // 2+1):
+            if (number % i == 0):
+                k +=1
+        correct_answer = 'yes' if (k <= 0) else 'no'
 
         if answer == correct_answer:
             print('Correct!')
