@@ -20,6 +20,7 @@ def main():
         for i in range(2, number // 2+1):
             if (number % i == 0):
                 k +=1
+        
         correct_answer = 'yes' if (k <= 0) else 'no'
 
         if answer == correct_answer:
