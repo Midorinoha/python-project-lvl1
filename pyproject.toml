@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "Fist project in python"
+name = "hexlet-code"
 version = "0.2.0"
 description = ""
 authors = ["Elina Nikitina <elina.nikitina@gmail.com>"]
@@ -16,8 +16,8 @@ brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.games.brain_even:main"
 brain-calc = "brain_games.scripts.games.brain_calc:main"
 brain-gcd = "brain_games.scripts.games.brain_gcd:main"
-brain-prime = "brain_games.scripts.games.brain_prime:main"
 brain-progression = "brain_games.scripts.games.brain_progression:main"
+brain-prime = "brain_games.scripts.games.brain_prime:main"
 
 [tool.poetry.dev-dependencies]
 wemake-python-styleguide = "^0.16.1"
